@@ -3,7 +3,9 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/variables1/src/Main.java"
+    "code/inch/src/InchToMeter.java",
+    "code/main/src/Main.java",
+    "code/temperature/src/Temperature.java"
   ],
   "video": ""
 }
