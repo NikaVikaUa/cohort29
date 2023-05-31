@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/h2023_05_31/src/Main.java",
+    "./code/h2023_05_31/src/Main2.java",
+    "./code/h2023_05_31/src/Main3.java",
+    "./code/h2023_05_31/src/MedicalAdviser.java",
+    "./code/h2023_05_31/src/Quiz.java"
+  ]
+}
