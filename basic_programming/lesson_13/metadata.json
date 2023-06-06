@@ -3,7 +3,8 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "code/while/src/Main.java"
+    "code/homework13/src/Main.java",
+    "code/while_cycle/src/Main.java"
   ],
   "video": ""
 }
