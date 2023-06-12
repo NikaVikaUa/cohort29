@@ -3,7 +3,8 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-      "code/homework16/src/Main.java"
+      "code/bubble_sort/src/BubbleSort.java",
+      "code/homework17/src/Main.java"
 
 
   ],
