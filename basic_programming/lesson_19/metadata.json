@@ -3,7 +3,15 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-     "code/homework18/src/Main.java"
+     "code/access_modifiers/src/Main.java",
+     "code/constructors_in_java/src/Main.java",
+     "code/constructors_in_java/src/Person.java",
+     "code/getters_setters/src/Employee.java",
+     "code/getters_setters/src/Main.java",
+     "code/homework19/src/Main.java",
+     "code/homework19/src/Student.java",
+     "code/our_packages/src/Calculator.java",
+     "code/our_packages/src/Main.java"
 
   ],
   "video": ""
