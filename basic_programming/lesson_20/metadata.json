@@ -3,7 +3,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-     "code/homework19/src/Main.java"
+     "code/homework20/src/Main.java",
+     "code/homework20/src/Voter.java",
+     "code/method_overloading/src/Main.java",
+     "code/static_members/src/Main.java",
+     "code/static_members/src/Person.java",
+     "code/toString_method/src/Main.java",
+     "code/toString_method/src/Student.java"
 
   ],
   "video": ""
