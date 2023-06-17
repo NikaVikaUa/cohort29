@@ -1,0 +1,26 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/homework21/src/Calculator.java",
+   "code/homework21/src/Dog.java",
+   "code/inheritance/src/JavaTeacher.java",
+   "code/inheritance/src/Main.java",
+   "code/inheritance/src/Teacher.java",
+   "code/overriding/src/Animal.java",
+   "code/overriding/src/Boy.java",
+   "code/overriding/src/Dog.java",
+   "code/overriding/src/Horse.java",
+   "code/overriding/src/Human.java",
+   "code/overriding/src/Main.java",
+   "code/overriding/src/Puppy.java",
+
+
+
+
+
+
+  ],
+  "video": ""
+}
