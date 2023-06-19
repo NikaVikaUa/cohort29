@@ -3,7 +3,18 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/homework21/src/Calculator.java"
+   "code/cars/src/Car.java",
+   "code/cars/src/Main.java",
+   "code/cars/src/PassengerCar.java",
+   "code/cars/src/Truck.java",
+   "code/homework21/src/Car.java",
+   "code/homework21/src/Cat.java",
+   "code/homework21/src/Main.java",
+   "code/homework21/src/PassengerCar.java",
+   "code/homework21/src/Truck.java",
+   "code/super_keyword/src/Main.java",
+   "code/super_keyword/src/ParentClass.java",
+   "code/super_keyword/src/SubClass.java"
 
   ],
   "video": ""
