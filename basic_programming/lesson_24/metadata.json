@@ -3,13 +3,17 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/shapes/src/Circle.java",
-   "code/shapes/src/Main.java",
-   "code/shapes/src/Rectangle.java",
-   "code/shapes/src/Shape.java",
-   "code/shapes/src/Square.java",
-   "code/wrapper_classes/src/ArgsArray.java",
-   "code/wrapper_classes/src/Main.java"
+   "code/our_strin_builder/src/Main.java",
+   "code/shapes24/src/Circle.java",
+   "code/shapes24/src/Main.java",
+   "code/shapes24/src/Rectangle.java",
+   "code/shapes24/src/Shape.java",
+   "code/shapes24/src/Square.java",
+   "code/testing/src/Calculator.java",
+   "code/testing/src/CalculatorTest.java",
+   "code/testing/src/Main.java",
+   "code/testing/src/MaxElementInArray.java",
+   "code/testing/src/MaxElementInArrayTest.java"
 
   ],
   "video": ""
