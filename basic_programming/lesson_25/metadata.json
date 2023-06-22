@@ -3,7 +3,17 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/testing/src/Main.java"
+   "code/abstract_classes/src/Animal.java",
+   "code/abstract_classes/src/Dog.java",
+   "code/abstract_classes/src/Lion.java",
+   "code/abstract_classes/src/Main.java",
+   "code/homework25/src/FindMaxMinDiff.java",
+   "code/homework25/src/FindMaxMinDiffTest.java",
+   "code/homework25/src/TestFindMaxMinDiff.java",
+   "code/pizza_factory/src/Main.java",
+   "code/pizza_factory/src/Pizza.java",
+   "code/stringbuilder_class/src/Main.java",
+   "code/stringbuilder_class/src/StringBulderTestString.java"
 
 
   ],
