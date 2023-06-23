@@ -1,0 +1,10 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/abstract_classes/src/Animal.java"
+
+  ],
+  "video": ""
+}
