@@ -3,7 +3,27 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/abstract_classes/src/Animal.java"
+   "code/final_keyword/src/A.java",
+   "code/final_keyword/src/B.java",
+   "code/interfaces/src/Animal.java",
+   "code/interfaces/src/Car.java",
+   "code/interfaces/src/Demo.java",
+   "code/interfaces/src/Driveable.java",
+   "code/interfaces/src/Flyable.java",
+   "code/interfaces/src/Horse.java",
+   "code/interfaces/src/Interf1.java",
+   "code/interfaces/src/Interf2.java",
+   "code/interfaces/src/Karlson.java",
+   "code/interfaces/src/Main.java",
+   "code/interfaces/src/Moscito.java",
+   "code/interfaces/src/Moveable.java",
+   "code/interfaces/src/Plane.java",
+   "code/pizza_factory_new/src/Main.java",
+   "code/pizza_factory_new/src/Pizza.java",
+   "code/pizza_factory_new/src/PizzaFactory.java",
+   "code/pizza_factory_new/src/PizzaHawaii.java",
+   "code/pizza_factory_new/src/PizzaMozarella.java",
+   "code/pizza_factory_new/src/PizzaSalami.java"
 
   ],
   "video": ""
