@@ -4,7 +4,24 @@
   "homework": "homework.md",
   "code": [
 
-   "code/pizza_factory_new/src/PizzaSalami.java"
+   "code/homework27/src/Circle.java",
+   "code/homework27/src/Main.java",
+   "code/homework27/src/Rectangler.java",
+   "code/homework27/src/Shape.java",
+   "code/homework27/src/ShapeCalculator.java",
+   "code/homework27/src/ShapeCalculatorTest.java",
+   "code/homework_new/src/Checkable.java",
+   "code/homework_new/src/Printable.java",
+   "code/homework_new/src/StringConcat.java",
+   "code/lambda_expressions/src/Addable.java",
+   "code/lambda_expressions/src/Drawable.java",
+   "code/lambda_expressions/src/Drawing.java",
+   "code/lambda_expressions/src/Greetable.java",
+   "code/lambda_expressions/src/Main.java",
+   "code/our_generics/src/Example.java",
+   "code/our_generics/src/Example1.java",
+   "code/our_generics/src/ExampleMethod.java",
+   "code/our_generics/src/Main.java"
 
   ],
   "video": ""
