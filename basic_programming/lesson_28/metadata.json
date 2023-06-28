@@ -3,7 +3,15 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/homework27/src/Main.java"
+   "code/comparable_interface/src/Main.java",
+   "code/comparable_interface/src/Player.java",
+   "code/lambdas/src/Checkable.java",
+   "code/lambdas/src/Main.java",
+   "code/lambdas/src/Printable.java",
+   "code/lambdas/Producable.java",
+   "code/lambdas/src/StringConcat.java",
+   "code/lambdas/src/Transformable.java",
+   "code/predicate_functional/src/Main.java"
 
   ],
   "video": ""
