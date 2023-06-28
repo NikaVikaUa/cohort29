@@ -1,6 +1,7 @@
 # Задачи на урок:
 1. Обсуждение и разбор дз
-2. Интерфейсы Comparable и Comparator
+2. Интерфейс Predicate
+3. Интерфейсы Comparable и Comparator
 3. Практика, решение задач
 
 
