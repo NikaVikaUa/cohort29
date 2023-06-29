@@ -3,7 +3,16 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/comparable_interface/src/Main.java"
+   "code/animals/src/AnimalMain.java",
+   "code/cars29/src/Car.java",
+   "code/cars29/src/CarTest.java",
+   "code/cars29/src/Main.java",
+   "code/comparable_interface29/src/Main.java",
+   "code/comparable_interface29/src/Player.java",
+   "code/interface_comparator/src/Author.java",
+   "code/interface_comparator/src/BookNameComparator.java",
+   "code/interface_comparator/src/Main.java",
+   "code/interface_comparator/src/PublishingYearComparator.java"
 
   ],
   "video": ""
