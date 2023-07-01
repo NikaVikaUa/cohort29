@@ -1,0 +1,23 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/accounting/src/Employee.java",
+   "code/accounting/src/Main.java",
+   "code/accounting/src/WageEmployee.java",
+   "code/animals30/src/Animal.java",
+   "code/animals30/src/AnimalMain.java",
+   "code/animals30/src/AnimalMainTest.java",
+   "code/animals30/src/AnimalMainTest.java",
+   "code/animals30/src/ComparatorByLastLetter.java",
+   "code/animals30/src/ComparatorByName.java",
+   "code/animals30/src/ComparatorByWeight.java",
+   "code/has_a/src/Brother.java",
+   "code/has_a/src/Main.java",
+   "code/has_a/src/Sister.java"
+
+
+  ],
+  "video": ""
+}
