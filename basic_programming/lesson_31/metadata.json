@@ -3,9 +3,14 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/accounting/src/Employee.java",
-   "code/accounting/src/Main.java",
-   "code/accounting/src/WageEmployee.java"
+   "code/accounting31/src/Company.java",
+   "code/accounting31/src/Employee.java",
+   "code/accounting31/src/Main.java",
+   "code/accounting31/src/SalesManager.java",
+   "code/accounting31/src/StateConstants.java",
+   "code/accounting31/src/WageEmployee.java",
+   "code/main31/src/Main.java",
+   "code/type_conversion/src/Main.java"
 
 
   ],
