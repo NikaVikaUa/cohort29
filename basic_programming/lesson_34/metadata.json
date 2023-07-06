@@ -3,7 +3,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/main/src/Main.java"
+   "code/main34/src/Main.java",
+   "code/main34/src/OurLocalDateTime.java",
+   "code/main34/src/FinallyExample.java",
+   "code/main34/src/Main.java"
 
   ],
   "video": ""
