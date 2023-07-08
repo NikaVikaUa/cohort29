@@ -1,0 +1,13 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/main35/src/InvalidWeightException.java",
+   "code/main35/src/Main.java",
+   "code/main35/src/Main1.java",
+   "code/main35/src/MyException.java",
+   "code/my_garden/src/Main.java"
+  ],
+  "video": ""
+}
