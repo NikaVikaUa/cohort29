@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/garden/src/Flower.java",
+   "code/garden/src/Main.java",
+   "code/garden/src/Plant.java",
+   "code/garden/src/Tree.java",
+   "code/main36/src/OurVar.java",
+   "code/static_in_deep/src/Car.java",
+   "code/static_in_deep/src/Main.java",
+   "code/static_in_deep/src/StaticBlocDemo.java"
+  ],
+  "video": ""
+}
