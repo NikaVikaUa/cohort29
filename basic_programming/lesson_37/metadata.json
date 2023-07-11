@@ -3,7 +3,10 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/main36/src/OurVar.java"
+   "code/main37/src/Main.java",
+   "code/o_notation/src/Main.java",
+   "code/var_variables/src/Main.java",
+   "code/var_variables/src/OurVarClassExample.java"
 
   ],
   "video": ""
