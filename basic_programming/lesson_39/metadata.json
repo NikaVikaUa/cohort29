@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/homework39/src/Main.java",
+   "code/homework39/src/MainTest.java",
+   "code/iterator_iterable/src/Main.java",
+   "code/iterator_iterable/src/OurListIterator.java",
+   "code/our_collection_new/src/OurArrayList.java",
+   "code/our_collection_new/src/OurList.java",
+   "code/our_iterable/src/Main.java",
+   "code/our_iterable/src/OurIterableString.java"
+     ],
+  "video": ""
+}
