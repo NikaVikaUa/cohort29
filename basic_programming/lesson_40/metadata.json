@@ -3,9 +3,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/homework39/src/Main.java",
-   "code/homework39/src/MainTest.java",
-
+   "code/homework40/src/Main.java",
+   "code/homework40/src/MainTest.java",
+   "code/main40/src/Main.java",
+   "code/our_collection/src/OurArrayList.java",
+   "code/our_collection/src/OurList.java"
      ],
   "video": ""
 }
