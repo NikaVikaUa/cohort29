@@ -3,7 +3,7 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/homework42/src/EmtyListException.java",
+   "code/homework42/src/EmptyListException.java",
    "code/homework42/src/Main.java",
    "code/homework42/src/MainTest.java",
    "code/main42/src/Address.java",
