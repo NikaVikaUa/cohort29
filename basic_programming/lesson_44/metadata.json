@@ -3,7 +3,21 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/homework43/src/Address.java"
+   "code/main44/src/Homework.java",
+   "code/main44/src/OurRandom.java",
+   "code/main44/src/OurRandom.java",
+   "code/our_collection44/src/ArrayListOperationsStrategy.java",
+   "code/our_collection44/src/Human.java",
+   "code/our_collection44/src/LinkedListOperationsStrategy.java",
+   "code/our_collection44/src/ListOperationsStrategy.java",
+   "code/our_collection44/src/ListPerformanceTester.java",
+   "code/our_collection44/src/Main.java",
+   "code/our_collection44/src/OurArrayList.java",
+   "code/our_collection44/src/OurArrayListTest.java",
+   "code/our_collection44/src/OurLinkedList.java",
+   "code/our_collection44/src/OurLinkedListTest.java",
+   "code/our_collection44/src/OurList.java",
+   "code/our_set/src/Main.java"
      ],
   "video": ""
 }
