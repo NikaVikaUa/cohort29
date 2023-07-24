@@ -3,8 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/homework45/src/Homework.java",
-   "code/homework45/src/HomeworkTest.java"
+   "code/homework46/src/DayOfWeek.java",
+   "code/homework46/src/DayOfWeekResolver.java",
+   "code/homework46/src/Main.java",
+   "code/other_collections/src/DequeTask.java",
+   "code/other_collections/src/Main.java",
+   "code/other_collections/src/MyComparator.java"
 
      ],
   "video": ""
