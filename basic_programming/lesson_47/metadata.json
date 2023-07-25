@@ -3,7 +3,11 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/homework46/src/Main.java"
+   "code/homework47/src/AnotherDequeTask.java",
+   "code/homework47/src/AnotherDequeTaskTest.java",
+   "code/homework47/src/DequeTask.java",
+   "code/homework47/src/DequeTaskTest.java",
+   "code/our_map/src/Main.java"
 
   ],
   "video": ""
