@@ -3,7 +3,12 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/our_map/src/Main.java"
+   "code/homework48/src/Main.java",
+   "code/homework48/src/MainTest.java",
+   "code/maps/src/HashMapInternal.java",
+   "code/maps/src/Main.java",
+   "code/maps/src/Order.java",
+   "code/maps/src/Tasks.java"
 
   ],
   "video": ""
