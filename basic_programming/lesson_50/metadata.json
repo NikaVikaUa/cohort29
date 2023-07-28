@@ -3,9 +3,8 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/main49/src/Homework.java"
-
-
+   "code/practice50/src/Practice.java",
+   "code/practice50/src/PracticeTest.java"
   ],
   "video": ""
 }
