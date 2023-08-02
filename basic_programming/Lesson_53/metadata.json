@@ -3,7 +3,19 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/homework52/src/Main.java"
+   "code/built_in_interfaces/src/Main.java",
+   "code/lambdas53/src/Checkable.java",
+   "code/lambdas53/src/Concatable.java",
+   "code/lambdas53/src/Main.java",
+   "code/lambdas53/src/Printable.java",
+   "code/lambdas53/src/Producable.java",
+   "code/lambdas53/src/Transformable.java",
+   "code/main53/src/Arithmetical.java",
+   "code/main53/src/Flyable.java",
+   "code/main53/src/Foo.java",
+   "code/main53/src/Main.java",
+   "code/main53/src/Product.java",
+   "code/main53/src/Walkable.java"
    ],
   "video": ""
 }
