@@ -1,0 +1,25 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/lambdass/src/Checkable.java",
+   "code/lambdass/src/Concatable.java",
+   "code/lambdass/src/Main.java",
+    "code/lambdass/src/Main1.java",
+   "code/lambdass/src/Printable.java",
+   "code/lambdass/src/Producable.java",
+   "code/lambdass/src/Transformable.java",
+   "code/method_reference/src/IntPredicate.java",
+   "code/method_reference/src/IntPredicateTwoParams.java",
+   "code/method_reference/src/Main.java",
+   "code/method_reference/src/OurClass.java",
+   "code/method_reference/src/OurFunk.java",
+   "code/method_reference/src/OurFunk2.java",
+   "code/method_reference/src/OurIntNumber.java",
+   "code/method_reference/src/OurPredicates.java",
+   "code/our_optional/src/Main.java"
+
+   ],
+  "video": ""
+}
