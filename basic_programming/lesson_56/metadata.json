@@ -3,7 +3,19 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/practice55/src/Practice.java"
+   "code/homework56/src/Transformer.java",
+   "code/homework56/src/TransformerTest.java",
+   "code/homework56/src/WordsTransformer.java",
+   "code/homework56/src/WordsTransformerLowerCase.java",
+   "code/homework56/src/WordsTransformerStar.java",
+   "code/homework56/src/WordsTransformerUpperCase.java",
+   "code/interfaces/src/Main.java",
+   "code/interfaces/src/ToLowerCaseChecker.java",
+   "code/interfaces/src/ToUpperCaseChecker.java",
+   "code/interfaces/src/WordsChecker.java",
+   "code/stream_api/src/Car.java",
+   "code/stream_api/src/CarComparator.java",
+   "code/stream_api/src/Main.java"
     ],
   "video": ""
 }
