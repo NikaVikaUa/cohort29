@@ -3,9 +3,14 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/homework/src/Address.java",
-   "code/homework/src/Homework.java",
-   "code/homework/src/Person.java"
+   "code/custom_collector/src/Box.java",
+   "code/custom_collector/src/Main.java",
+   "code/custom_collector/src/Person.java",
+   "code/homework59/src/Homework.java",
+   "code/homework59/src/Person.java",
+   "code/io_streams/src/CloseWithFinally.java",
+   "code/io_streams/src/Main.java",
+   "code/io_streams/src/ReadByteArrayClass.java"
 
     ],
   "video": ""
