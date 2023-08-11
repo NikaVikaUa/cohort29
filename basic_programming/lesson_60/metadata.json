@@ -3,8 +3,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/homework59/src/Homework.java",
-   "code/io_streams/src/ReadByteArrayClass.java"
+   "code/charStreams/src/BufferedReadingWriting.java",
+   "code/charStreams/src/Main.java",
+   "code/homework60/src/Homework.java",
+   "code/io_stream/src/DateStreamClass.java",
+   "code/io_stream/src/Employee.java",
+   "code/io_stream/src/Main.java",
+   "code/io_stream/src/PrintStreamClass.java"
     ],
   "video": ""
 }
