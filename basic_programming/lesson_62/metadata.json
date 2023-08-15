@@ -3,7 +3,13 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-   "code/main61/src/Homework.java"
+   "code/homework62/src/Homework.java",
+   "code/multithreading_fundamentals/src/Main.java",
+   "code/multithreading_fundamentals/src/OurThread.java",
+   "code/multithreading_fundamentals/src/OurThreadRun.java",
+   "code/threads_sync/src/CommonResource.java",
+   "code/threads_sync/src/Main.java",
+   "code/threads_sync/src/OurNewThread.java"
 
     ],
   "video": ""
