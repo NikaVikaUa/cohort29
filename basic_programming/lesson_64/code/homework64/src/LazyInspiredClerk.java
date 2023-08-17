@@ -1,11 +1,11 @@
-public class LazyInspiredClerk extends AbstractClerk{
+public class LazyInspiredClerk extends AbstractClerk {
     private static int INSPIRATION_PROBABILITY = 20;
     private static int INSPIRATION_TIMES = 3;
 
     private double inspirationCoef;
 
-    public LazyInspiredClerk( String name, int minTime, int maxTime, int creditsNum, double inspirationCoef){
-        super(name,minTime,maxTime,creditsNum);
+    public LazyInspiredClerk(String name, int minTime, int maxTime, int creditsNum, double inspirationCoef) {
+        super(name, minTime, maxTime, creditsNum);
         this.inspirationCoef = inspirationCoef;
     }
 
@@ -14,7 +14,7 @@ public class LazyInspiredClerk extends AbstractClerk{
     public void run() {
         int inspiredCreditsMore = 0;
 
-        for( int i = 0; i < creditsNum; i++) {
+        for (int i = 0; i < creditsNum; i++) {
             int timeToSleep;
 
             if (inspiredCreditsMore == 0 && random.nextInt(100) > INSPIRATION_PROBABILITY) {

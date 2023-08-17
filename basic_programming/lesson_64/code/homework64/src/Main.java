@@ -13,17 +13,17 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
         AbstractClerk mary = new RegularClerk("Mary",
-                                            (int) (MIN_TIME / 1.2),
-                                            (int)(MAX_TIME / 1.2),
-                                                    CREDITS_NUM);
-        AbstractClerk peter = new RegularClerk("Peter",MIN_TIME,MAX_TIME,CREDITS_NUM);
+                (int) (MIN_TIME / 1.2),
+                (int) (MAX_TIME / 1.2),
+                CREDITS_NUM);
+        AbstractClerk peter = new RegularClerk("Peter", MIN_TIME, MAX_TIME, CREDITS_NUM);
         AbstractClerk john = new LazyInspiredClerk("John",
-                                                  MIN_TIME,
-                                                  MAX_TIME,
-                                                CREDITS_NUM,
-                                              1.5);
+                MIN_TIME,
+                MAX_TIME,
+                CREDITS_NUM,
+                1.5);
 
-        AbstractClerk[] clerks = {mary,peter,john};
+        AbstractClerk[] clerks = {mary, peter, john};
 
         Thread th1 = new Thread(mary);
         Thread th2 = new Thread(peter);
@@ -38,8 +38,8 @@ public class Main {
         th2.join();
         th3.join();
 
-        for( int i = 0; i < clerks.length; i++){
-            System.out.println(" The clerk named " +clerks[i].getName() + " issued "+ " all credits for "+
+        for (int i = 0; i < clerks.length; i++) {
+            System.out.println(" The clerk named " + clerks[i].getName() + " issued " + " all credits for " +
                     (clerks[i].getFinishTime() - startTime));
         }
     }

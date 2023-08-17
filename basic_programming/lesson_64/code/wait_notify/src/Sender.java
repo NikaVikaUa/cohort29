@@ -1,8 +1,8 @@
-public class Sender implements Runnable{
+public class Sender implements Runnable {
 
     private Data data;
 
-    public Sender( Data data){
+    public Sender(Data data) {
         this.data = data;
     }
 
@@ -20,8 +20,9 @@ public class Sender implements Runnable{
 
             try {
                 Thread.sleep(500);
-            }catch (InterruptedException e){
-                e.getMessage();}
+            } catch (InterruptedException e) {
+                e.getMessage();
+            }
 
         }
     }

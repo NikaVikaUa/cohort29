@@ -6,11 +6,11 @@ public class Data {
     // false -  если передатчик должен ждать
     private boolean transfer = true;
 
-    public synchronized String receive(){
-        while(transfer) {
+    public synchronized String receive() {
+        while (transfer) {
             try {
                 wait();
-            } catch (InterruptedException e){
+            } catch (InterruptedException e) {
                 System.out.println("Interrupted");
             }
         }
@@ -25,8 +25,8 @@ public class Data {
     }
 
 
-    public synchronized void  send ( String packet){
-        while(!transfer) {
+    public synchronized void send(String packet) {
+        while (!transfer) {
             try {
                 wait();
             } catch (InterruptedException e) {
@@ -34,10 +34,10 @@ public class Data {
             }
         }  // here
 
-            this.packet = packet;
+        this.packet = packet;
 
-            transfer = false;
-            notifyAll();
+        transfer = false;
+        notifyAll();
 
     }
 }

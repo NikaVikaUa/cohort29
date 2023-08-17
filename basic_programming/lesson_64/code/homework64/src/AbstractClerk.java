@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public abstract   class AbstractClerk implements Runnable{
+public abstract class AbstractClerk implements Runnable {
 
     protected String name;
     protected int minTime;
@@ -17,11 +17,11 @@ public abstract   class AbstractClerk implements Runnable{
         this.creditsNum = creditsNum;
     }
 
-    public long getFinishTime(){
+    public long getFinishTime() {
         return finishTime;
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 }

@@ -7,12 +7,12 @@ public class Philosopher implements Runnable {
 
     private Random random = new Random();
 
-    public Philosopher( Object leftFork, Object rightFork){
+    public Philosopher(Object leftFork, Object rightFork) {
         this.leftFork = leftFork;
         this.rightFork = rightFork;
     }
 
-    public void run(){
+    public void run() {
         try {
 
             while (true) {
@@ -27,14 +27,14 @@ public class Philosopher implements Runnable {
                     doAction("put down left fork");
                 }
             }
-        } catch (InterruptedException e){
+        } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
     }
 
-    private void doAction( String action ) throws InterruptedException {
-        System.out.println(Thread.currentThread().getName() +" "+ action);
+    private void doAction(String action) throws InterruptedException {
+        System.out.println(Thread.currentThread().getName() + " " + action);
         Thread.sleep(random.nextInt(1000));
     }
 }
