@@ -1,0 +1,23 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+   "code/homework63/src/CharThread.java",
+   "code/homework63/src/Main.java",
+   "code/our_threads/src/AThread.java",
+   "code/our_threads/src/BThread.java",
+   "code/our_threads/src/Main.java",
+   "code/our_threads/src/OurAtomicInteger.java",
+   "code/our_threads/src/Person.java",
+   "code/our_threads/src/TestCounter.java",
+   "code/practice63/src/Practice.java",
+   "code/thread_sync/src/CommonResource.java",
+   "code/thread_sync/src/Main.java",
+   "code/thread_sync/src/OurNewThread.java",
+   "code/thread_sync/src/OurNewThread1.java"
+
+
+    ],
+  "video": ""
+}
