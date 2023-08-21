@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro to html</title>
+  <!-- title - название вкладки-->
+  <!-- дублировать строку: alt(на маке option)-shift-стрелкавниз -->
+</head>
+
+<body>
+  <h1>Welcome to HTML</h1>
+  <!-- парные теги - когда открывающий и закрывающий -->
+  <ul>
+    <li>
+      <!-- a - anchor - якорь - гиперссылки на другие сайты или на разделы этого же сайта -->
+      <!-- ссылка на раздел нашего же сайта - решеточка + id элемента-->
+      <a href="#most-dangerous">Самые опасные животные</a>
+    </li>
+    <li>
+      <a href="#carnivore">Хищники</a>
+    </li>
+    <li>
+      <a href="./tables.html">К таблицам</a>
+    </li>
+  </ul>
+  <p>Тег p используется для обозначения параграфа</p>
+  <p>Для переноса строки <br> мы можем воспользоваться тегом br </p>
+  <!-- 
+    одиночный тег - например br - для не ставим закрывающий тег 
+    у него нет контента -->
+  <p />
+  <!-- самозакрывающийся
+     если вдруг у парного тега нет контента 
+    - мы можем сделать его самозакрывающимся -->
+  <img
+    src="https://media.istockphoto.com/id/1185211680/photo/giant-panda.webp?b=1&s=170667a&w=0&k=20&c=oO696tDO_Al1U6augi46-2WdiqMDQOlbeTE_I4koBeU="
+    width="350" 
+    alt="panda eating bamboo"
+  >
+  <!-- width="350" - ширина 350 пикселей -->
+  <!-- ниже пример лоакльного расположения картинки -->
+  <img src="./images/panda.jpeg" width="350" alt="panda eating bamboo">
+  <h2>Маркированный (ненумерованный) список</h2>
+  <!-- unordered list -->
+  <!-- list item -->
+  <ul>
+    <li>Capibara</li>
+    <li>Tiger</li>
+    <li>Corgi</li>
+    <li>Panda</li>
+  </ul>
+  <p>Мы можем указывать разные значения аттрибута type - чтобы менять маркер</p>
+  <h2 id="carnivore">Хищники</h2>
+  <ul type="square">
+    <li>Орел</li>
+    <li>Волк</li>
+    <li>Лев</li>
+    <li>Акула</li>
+  </ul>
+  <h2>Травоядные</h2>
+  <ul type="circle">
+    <li>Лось</li>
+    <li>Корова</li>
+  </ul>
+  <!--  circle - незалитый кружок
+        disk - залитый кружок - это вариант по-умолчанию
+        square - квадратик 
+  -->
+  <!-- ol - ordered list -->
+  <h2>Самые неуклюжие животные</h2>
+  <ol>
+    <li>Мой кот</li>
+    <li>Ленивец</li>
+    <li>Медведь</li>
+  </ol>
+  <!-- id всегда уникальный -->
+  <h2 id="most-dangerous">Самые опасные животные</h2>
+  <ol type="A">
+    <li>Медуза</li>
+    <li>Барс</li>
+    <li>Мой кот</li>
+  </ol>
+
+  <h2>Самые знаменитые римские сооружения</h2>
+  <ol type="I">
+    <li>
+      <a href="https://en.wikipedia.org/wiki/Colosseum">Колизей</a>
+      <!-- a - ссылка на внешний сайт -->
+      <br>
+      <img
+        src="https://media.istockphoto.com/id/539115110/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BA%D0%BE%D0%BB%D0%B8%D0%B7%D0%B5%D0%B9-%D0%B2-%D1%80%D0%B8%D0%BC%D0%B5-%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D1%8F-%D1%83%D1%82%D1%80%D0%B5%D0%BD%D0%BD%D0%B5%D0%B5-%D1%81%D0%BE%D0%BB%D0%BD%D1%86%D0%B5.jpg?s=612x612&w=0&k=20&c=ivGIYrwJhUMbGSz-TiIYjMu7VW-QPlkd0ncf4u9dcEI="
+        alt="colisey">
+    </li>
+    <li>
+      <!-- a - anchor - ссылка на внешний сайт _blank - будет открываться в новой вкладке -->
+      <a href="https://en.wikipedia.org/wiki/Pantheon,_Rome" target="_blank">Пантеон</a>
+      <br>
+      <img
+        src="https://media.istockphoto.com/id/1173326943/ru/%D1%84%D0%BE%D1%82%D0%BE/%D0%BF%D0%B0%D0%BD%D1%82%D0%B5%D0%BE%D0%BD-%D0%B8-%D1%84%D0%BE%D0%BD%D1%82%D0%B0%D0%BD-%D0%B2-%D1%80%D0%B8%D0%BC%D0%B5.jpg?s=612x612&w=0&k=20&c=tl5WCa38nvCpFn3ZO962kGF1dxEfTsBI1l0yaQMPTKQ="
+        alt="panteon">
+    </li>
+    <li>
+      Термы в Будапеште
+      <br>
+      <img src="https://lh3.googleusercontent.com/p/AF1QipM_iGZQ8mZvLZF2P0yRgrImx9dxzl9QLv9KVGDt=s1360-w1360-h1020"
+        alt="" width="650">
+    </li>
+  </ol>
+
+</body>
+
+</html>
