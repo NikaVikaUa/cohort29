@@ -1,0 +1,39 @@
+    /* outer css - внешний лист css */
+    /* селектор по тегу */
+    h1 {
+      text-align: center;
+      color: red;
+    }
+
+    /* селектор по id начинается с #ид */
+    #paragraph1 {
+      color: green;
+      width: 900px;
+    }
+
+    /* предпочтительный способ стилизации - это по классам */
+    /* селекторы по классам начинаются точки .className */
+    .blue-text {
+      color:#4b4bcd;
+    }
+
+    .red-text {
+      color: red;
+    }
+
+    .bold-text {
+      font-weight: bold;
+    }
+    
+    .container {
+      /* цвет фона */
+      background-color: lightcyan;
+      /* ширина */
+      width: 400px;
+      /* высота */
+      height: 200px; 
+      /* гарница - толщина сплошной цвет красный */
+      border: 5px solid red;
+      /* padding - внутренний отступ*/
+      padding: 30px;
+    }
