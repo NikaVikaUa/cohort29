@@ -16,7 +16,7 @@
 - внешний отсуп (margin)
 - содержимое (content)
 
-<img src="./img/css-box-model.png" alt="drawing" width="500"/>
+<img src="https://static.javatpoint.com/csspages/images/css-box-model.png" alt="drawing" width="500"/>
 
 Объяснение:
 
