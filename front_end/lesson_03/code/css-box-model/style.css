@@ -1,0 +1,77 @@
+.red-box {
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  border: 20px solid blue;
+  padding: 30px;
+  margin: 50px;
+}
+
+.blue-box {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  /* граница слева*/
+  margin-left: 50px; 
+  /* граница справа */
+  margin-right: 40px;
+  /* граница сверху */
+  margin-top: 30px;
+  /* граница снизу */
+  margin-bottom: 20px;
+}
+
+.orange-box {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+  /* сокращенная запись */
+  /* верх право низ лево - по часовой стрелке */
+  padding: 50px 40px 30px 20px;
+}
+
+.green-box {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  /* верх лево-право низ */
+  padding: 40px 30px 10px;
+}
+
+.purple-box {
+  width: 200px;
+  height: 200px;
+  background-color: purple;
+  /* 
+    20- верх-низ
+    50 - лево-право
+  */
+  padding: 20px 50px;
+}
+
+.rounded-corners {
+  border-radius: 20px;
+}
+
+.asymetric-corners {
+  /* левый верхний - и дальше по часовой */
+  border-radius: 60px 30px 0 10px;
+}
+
+.black-box {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.element {
+  background-color: white;
+  /* проценты это проценты от чего? */
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  vertical-align: middle;
+}

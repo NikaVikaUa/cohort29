@@ -1,0 +1,40 @@
+.headline {
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subheader {
+  font-style: italic;
+  text-align: center;
+  font-size: 25px;
+}
+
+.container {
+  text-align: center;
+}
+
+#panda {
+  width: 350px;
+}
+
+.intro {
+  background-color: lightgrey;
+  padding: 30px;
+}
+
+.main-text {
+  font-family: 'Times New Roman', Times, serif;
+  color: lightcoral;
+  margin: 20px;
+}
+
+.bald-idea {
+  font-weight: bold;
+  margin: 30px;
+}
+
+/* как применить стиль сразу к нескольким классам */
+.intro, .main-text, .bald-idea, #text-more {
+  margin-left: 20px;
+}
