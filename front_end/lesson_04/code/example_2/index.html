@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h2>Регистрация пиратов</h2>
+  <form action="./home.html" method="get">
+    <label for="nick-name-input">Ваше пиратское имя *</label>
+    <input type="text" name="nick-name" id="nick-name-input" required>
+
+    <label for="gold-input">Сколько золота при себе? *</label>
+    <input type="number" name="gold" id="gold-input" required>
+
+    <input type="text" placeholder="имя попугая" name="parrot">
+
+    <label for="teeth-color">Цвет ваших зубов</label>
+    <input type="color" name="teeth-color">
+
+    <label for="birth-date-input">Дата рождения *</label>
+    <input type="date" name="birth-date" id="birth-date-input" required>
+
+    <input type="email" name="email" id="email-input" placeholder="email">
+
+    <fieldset>
+      <legend>Оружие</legend>
+      <div>
+        <input type="radio" name="weapon" value="pistol" id="radio-pistol">
+        <label for="radio-pistol">Pistol</label>
+      </div>
+
+      <div>
+        <input type="radio" name="weapon" value="saber" id="radio-saber" checked>
+        <label for="radio-saber">Saber</label>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Контрабанда</legend>
+      <input type="checkbox" name="cats" id="cats-input" value="cats">
+      <label for="cats-input">кошки</label>
+
+      <input type="checkbox" name="women" id="women-input" value="women" checked>
+      <label for="women-input">грудастые женщины</label>
+
+      <input type="checkbox" name="herring" id="herring-input" value="herring" checked>
+      <label for="herring-input">селедка</label>
+    </fieldset>
+
+    <label for="legs-input">Количество ног</label>
+    <select name="number-of-legs" id="legs-input">
+      <!-- <option value="" selected disabled>Количество ног</option> -->
+      <option value="1">одна</option>
+      <option value="2" selected>две</option>
+      <option value="3">три</option>
+    </select>
+    <button type="submit">Подать заявку на вступление</button>
+  </form>
+</body>
+
+</html>

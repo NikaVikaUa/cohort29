@@ -1,0 +1,51 @@
+body {
+  height: 400vh;
+  /* 100 vh - это один viewport height */
+  /* 100 vw - это один viewport width */
+}
+
+.parent {
+  background-color: red;
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+}
+
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: gold;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.advert {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+}
+
+.small-red-box {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+
+.purple {
+  width: 900px;
+  height: 100px;
+  background-color: purple;
+
+  position: sticky;
+  top: 50px;
+  z-index: 2;
+  /*  */
+}

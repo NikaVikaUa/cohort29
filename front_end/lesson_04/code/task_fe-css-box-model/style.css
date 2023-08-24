@@ -1,0 +1,16 @@
+p {
+  background-color: antiquewhite;
+  border: solid red 2px;
+  font-size: 30px;
+  width: 1200px;
+  margin: 30px;
+  padding: 10px;
+}
+
+span {
+  border: solid blue 2px;
+}
+
+img {
+  margin-top: 20px;
+}
