@@ -1,0 +1,55 @@
+/* example 1 */
+
+.container1 {
+  background-color: lightblue;
+  padding: 20px;
+  /* 
+  display flex - сообщает, что контейнер является гибким 
+  - элементы внутри будут расположены по правилам флексбокс 
+  
+  gap - это растояние между элементами 
+  можно еще уточнять row-gap, column-gap
+
+  justify-content - управляет расположением элементов по основной оси
+  (основная ось не обязтельно является горизонтальной)
+  - center - элементы расположатся по центру
+  - flex-start - слева
+  - flex-end - справа
+  - space-between - все свободное пространство расположилось между элементами равномерно
+  - space-around - равное растояние между элементами и небольшое расстояние от элементов до краев
+  - space-evenly - расстояние между элементами и между элементо и краеем равны
+  */
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  /* 
+  flex-direction - направление основной оси - как будут располагаться элементы - столбик или строка
+  - row - строка
+  - column - столбец
+  - row-reverse - строка - элементы в обратном порядке
+  - column-reverse - столбец в обратном порядке - снизу вверх
+  */
+  flex-direction: row;
+}
+
+.box {
+  width: 250px;
+  height: 350px;
+}
+
+.red {
+  background-color: red;
+}
+
+/* example 2 */
+.green {
+  background-color: green;
+}
+
+.container2 {
+  background-color: lightpink;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  justify-content: flex-end;
+}
