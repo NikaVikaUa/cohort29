@@ -1,8 +1,7 @@
 ## Plan
 
-1. DOM
-2. JS и DOM
-3. Методы DOM
+1. JS syntax
+2. Arrays, for, array methods
 
 
 
