@@ -3,14 +3,14 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "./code/async-await/async-await-intro.js",
-    "./code/cat-app/index.html",
-    "./code/cat-app/index.js",
-    "./code/dog-app/index.html",
-    "./code/dog-app/index.js",
-    "./code/Dracula-app/index.html",
-    "./code/Dracula-app/index.js",
-    "./code/homework/index.js"
+    "/code/async-await/async-await-intro.js",
+    "/code/cat-app/index.html",
+    "/code/cat-app/index.js",
+    "/code/dog-app/index.html",
+    "/code/dog-app/index.js",
+    "/code/Dracula-app/index.html",
+    "/code/Dracula-app/index.js",
+    "/code/homework/index.js"
   ],
   "video": "",
   "etc": ""
