@@ -1,0 +1,16 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/vite-project/package.json",
+    "./code/vite-project/MANUAL.md",
+    "./code/vite-project/src/features/counter/types/Action.ts",
+    "./code/vite-project/src/features/counter/types/CounterState.ts",
+    "./code/vite-project/src/features/counter/Counter.tsx",
+    "./code/vite-project/src/features/counter/counterReducer.ts",
+    "./code/vite-project/src/App.tsx",
+    "./code/vite-project/src/main.tsx",
+    "./code/vite-project/src/store.ts"
+  ]
+}
