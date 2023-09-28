@@ -1,0 +1,20 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/vite-project/src/features/books/types/Action.ts",
+    "./code/vite-project/src/features/books/types/Book.ts",
+    "./code/vite-project/src/features/books/types/BooksState.ts",
+    "./code/vite-project/src/features/books/BooksPage.tsx",
+    "./code/vite-project/src/features/books/booksReducer.ts",
+    "./code/vite-project/src/features/books/CreateBook.tsx",
+    "./code/vite-project/src/features/books/EditForm.tsx",
+    "./code/vite-project/src/features/sandwich/types/Action.ts",
+    "./code/vite-project/src/features/sandwich/types/SandwichState.ts",
+    "./code/vite-project/src/features/sandwich/SandwichPage.tsx",
+    "./code/vite-project/src/features/sandwich/sandwichReducer.ts",
+    "./code/vite-project/src/App.tsx",
+    "./code/vite-project/src/store.ts"
+  ]
+}
