@@ -1,0 +1,23 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "./code/my-app/src/app/store.ts",
+    "./code/my-app/src/app/hooks.ts",
+    "./code/my-app/src/features/counter/Counter.module.css",
+    "./code/my-app/src/features/counter/Counter.tsx",
+    "./code/my-app/src/features/counter/counterAPI.ts",
+    "./code/my-app/src/features/counter/counterSlice.spec.ts",
+    "./code/my-app/src/features/counter/counterSlice.ts",
+    "./code/my-app/src/features/products/types/Product.ts",
+    "./code/my-app/src/features/products/api.ts",
+    "./code/my-app/src/features/products/types/ProductsState.ts",
+    "./code/my-app/src/features/products/Products.tsx",
+    "./code/my-app/src/features/products/productsSlice.ts",
+    "./code/my-app/src/App.tsx",
+    "./code/my-app/src/main.tsx",
+    "./code/my-app/package.json",
+    "./code/my-app/CONSPECT.md"
+  ]
+}
