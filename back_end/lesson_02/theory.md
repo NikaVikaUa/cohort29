@@ -6,8 +6,7 @@
    - Слой "сервисов" (Service) - отвечает за бизнес-логику приложения
    - Слой "репозиториев" (Repository) - отвечает за взаимодействие с хранилищем данных
 
-
-<img src="https://drive.google.com/file/d/1aJy7ignLLocCWEA8-wQC8wMNoUNtoosi/view?usp=sharing" width=50% height=50%>
+<img src="https://docs.google.com/drawings/d/e/2PACX-1vSXFlybHnCBAGwSmlJ13XTXopg41oBSjLtKdl0SU217Gs6zKwqQ0yCNkuBx76zaH-2Lt4EhJCUC_9Xd/pub?w=717&amp;h=466">
 
 The Controller-Service-Repository pattern is prevalent in a lot of applications especially Spring Boot applications. One of the big reasons is that it does a great job of a separation of concerns: 
 The Controller layer, at the top of this picture, is solely responsible for exposing the functionality so that it can be consumed by external entities (including, perhaps, a UI
@@ -19,7 +18,7 @@ it just does its work, using a Repository where required. And the Controller is 
 It’s a pretty simple separation of concerns.
 
 We create an additional, separate layer model or entity (models of the business area, entities that will be saved in the repository)
-
+ё
 
 Шаблон *«Controller-Service-Repository»* часто используется в приложениях, в том числе Spring Boot. Одна из главных причин, заключается в том, что он отлично справляется с разделением задач: 
 уровень контроллера несет полную ответственность за предоставление функциональности, чтобы ее могли использовать внешние объекты ( включая, возможно, компонент пользовательского интерфейса). 
