@@ -1,6 +1,6 @@
-package repositories;
+package de.ait.repositories;
 
-import model.User;
+import de.ait.model.User;
 
 import java.util.ArrayList;
 import java.util.List;

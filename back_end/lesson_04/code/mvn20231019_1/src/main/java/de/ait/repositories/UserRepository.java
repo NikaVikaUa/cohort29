@@ -1,6 +1,6 @@
-package repositories;
+package de.ait.repositories;
 
-import model.User;
+import de.ait.model.User;
 
 public interface UserRepository extends CrudRepository<User>{
     public User findByEmail(String email);

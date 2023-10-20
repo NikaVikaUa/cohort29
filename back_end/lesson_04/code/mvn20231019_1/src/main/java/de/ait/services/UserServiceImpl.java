@@ -1,7 +1,7 @@
-package services;
+package de.ait.services;
 
-import model.User;
-import repositories.UserRepository;
+import de.ait.model.User;
+import de.ait.repositories.UserRepository;
 
 import java.util.List;
 

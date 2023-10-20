@@ -1,6 +1,6 @@
-package controllers;
+package de.ait.controllers;
 
-import model.User;
+import de.ait.model.User;
 
 import java.util.List;
 

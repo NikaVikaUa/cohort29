@@ -1,9 +1,11 @@
-import controllers.UserController;
-import controllers.UserControllerConsoleImp;
-import repositories.UserRepository;
-import repositories.UserRepositoryFileImpl;
-import services.UserService;
-import services.UserServiceImpl;
+package de.ait;
+
+import de.ait.controllers.UserController;
+import de.ait.controllers.UserControllerConsoleImp;
+import de.ait.repositories.UserRepository;
+import de.ait.repositories.UserRepositoryFileImpl;
+import de.ait.services.UserService;
+import de.ait.services.UserServiceImpl;
 
 import java.util.Scanner;
 

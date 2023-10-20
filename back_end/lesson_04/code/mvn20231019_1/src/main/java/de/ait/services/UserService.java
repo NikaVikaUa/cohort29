@@ -1,6 +1,6 @@
-package services;
+package de.ait.services;
 
-import model.User;
+import de.ait.model.User;
 
 import java.util.List;
 

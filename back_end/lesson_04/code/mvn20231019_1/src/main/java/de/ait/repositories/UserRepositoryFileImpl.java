@@ -1,6 +1,6 @@
-package repositories;
+package de.ait.repositories;
 
-import model.User;
+import de.ait.model.User;
 
 import java.io.*;
 import java.util.Collections;

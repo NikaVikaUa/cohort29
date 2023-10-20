@@ -1,7 +1,7 @@
-package controllers;
+package de.ait.controllers;
 
-import model.User;
-import services.UserService;
+import de.ait.model.User;
+import de.ait.services.UserService;
 
 import java.util.List;
 import java.util.Scanner;

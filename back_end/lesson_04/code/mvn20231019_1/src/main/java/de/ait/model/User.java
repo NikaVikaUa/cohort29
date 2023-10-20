@@ -1,4 +1,4 @@
-package model;
+package de.ait.model;
 
 public class User {
     private Long id;
