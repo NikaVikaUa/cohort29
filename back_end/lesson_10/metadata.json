@@ -1,0 +1,14 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/pom.xml",
+    "code/src/main/java/lesson9/spring/AppConfig.java",
+    "code/src/main/java/lesson9/spring/EventDaoSpringDemo",
+    "code/src/main/java/lesson9/Event.java",
+    "code/src/main/java/lesson9/EventDAO.java",
+    "code/src/main/java/lesson9/EventDAOExecute.java",
+    "code/src/main/java/lesson9/PGSingletonDataSource.java"
+  ]
+}
