@@ -5,7 +5,7 @@
   "code": [
     "code/pom.xml",
     "code/src/main/java/lesson9/spring/AppConfig.java",
-    "code/src/main/java/lesson9/spring/EventDaoSpringDemo",
+    "code/src/main/java/lesson9/spring/EventDaoSpringDemo.java",
     "code/src/main/java/lesson9/Event.java",
     "code/src/main/java/lesson9/EventDAO.java",
     "code/src/main/java/lesson9/EventDAOExecute.java",
