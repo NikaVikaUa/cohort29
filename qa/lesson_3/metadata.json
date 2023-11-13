@@ -3,6 +3,6 @@
   "theory": "theory.md",
   "homework": "homework.md",
   "code": [
-    "qa/lesson_3/code/QA29_FirstSeleniumProject/src/test/java/com/ait/qa29/FindElementTests.java"
+    "code/QA29_FirstSeleniumProject/src/test/java/com/ait/qa29/FindElementTests.java"
   ]
 }
