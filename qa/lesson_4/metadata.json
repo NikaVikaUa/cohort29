@@ -1,6 +1,5 @@
 {
   "plan": "plan.md",
-  "theory": "theory.md",
   "homework": "homework.md",
   "code": [
     "code/QA29_Phonebook/.gitignore",

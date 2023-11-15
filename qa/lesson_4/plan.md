@@ -4,3 +4,7 @@
 2. Selenium. Method isElementPresent
 3. Assert testng 
 4. TestBase
+
+[Whittaker Exploratory Software Testing](https://drive.google.com/file/d/1LFOSGigDr7m_ZYOPcgFc2QS_yViaHSZe/view?usp=drive_link)
+
+[Projects folder](https://drive.google.com/drive/folders/1fTvwyvnUNHuQ4gO5XNteMrawo-0z3Jax?usp=sharing)
