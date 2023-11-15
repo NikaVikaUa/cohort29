@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/pom.xml",
+    "code/src/main/java/news/crawler/config/WebConfig.java",
+    "code/src/main/java/news/crawler/domain/Event.java",
+    "code/src/main/java/news/crawler/domain/Index.java",
+    "code/src/main/java/news/crawler/domain/PageConfig.java",
+    "code/src/main/java/news/crawler/domain/User.java",
+    "code/src/main/java/news/crawler/Application.java",
+    "code/src/main/resources/application.yaml"
+  ]
+}
