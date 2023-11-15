@@ -1,4 +1,4 @@
-package de.pizza.tomate;
+package news.crawler;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

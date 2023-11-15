@@ -2,18 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.16</version>
+        <version>2.7.17</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>de.pizza</groupId>
-    <artifactId>tomate-pizza-de</artifactId>
+    <groupId>news.crawler</groupId>
+    <artifactId>news-crawler</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>TomatePizza</name>
-    <description>TomatePizza student project</description>
+    <name>NewsCrawler</name>
+    <description>NewsCrawler Spring Boot application</description>
 
     <properties>
         <java.version>11</java.version>
@@ -26,7 +27,16 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.liquibase</groupId>
+            <artifactId>liquibase-core</artifactId>
         </dependency>
 
         <dependency>
@@ -34,6 +44,7 @@
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
+
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
@@ -44,15 +55,6 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
-        </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui -->
-        <!-- http://localhost:8080/swagger-ui.html -->
-        <!-- http://localhost:8080/v3/api-docs -->
-        <dependency>
-            <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-ui</artifactId>
-            <version>1.7.0</version>
         </dependency>
 
         <dependency>
@@ -68,6 +70,9 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <image>
+                        <builder>paketobuildpacks/builder-jammy-base:latest</builder>
+                    </image>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
