@@ -1,0 +1,12 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "homework": "homework.md",
+  "code": [
+    "code/QA29_Phonebook/.gitignore",
+    "code/QA29_Phonebook/build.gradle",
+    "code/QA29_Phonebook/src/test/java/com/ait/phonebook/tests/TestBase.java",
+    "code/QA29_Phonebook/src/test/java/com/ait/phonebook/tests/HomePageTests.java",
+    "code/QA29_Phonebook/src/test/java/com/ait/phonebook/tests/CreateAccountTests.java"
+  ]
+}
