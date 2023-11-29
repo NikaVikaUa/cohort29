@@ -12,6 +12,7 @@
     "code/src/main/java/news/crawler/controller/SourceController.java",
     "code/src/main/java/news/crawler/controller/ParseTestController.java",
     "code/src/main/java/news/crawler/controller/EventController.java",
+    "code/src/main/java/news/crawler/controller/WebController.java",
     "code/src/main/java/news/crawler/domain/Event.java",
     "code/src/main/java/news/crawler/domain/Index.java",
     "code/src/main/java/news/crawler/domain/SourceConfig.java",
@@ -29,6 +30,8 @@
     "code/src/main/java/news/crawler/Application.java",
     "code/src/main/resources/db/changelog/db.changelog-master.yaml",
     "code/src/main/resources/db/changelog/db.changelog.xml",
+    "code/src/main/resources/templates/events.html",
+    "code/src/main/resources/templates/webForm.html",
     "code/src/main/resources/application.yaml"
   ]
 }

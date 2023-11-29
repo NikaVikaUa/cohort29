@@ -63,3 +63,9 @@
 2. Пишем SourceConfigController и SourceConfigService
 3. Пишем EventController и дополняем EventService
 4. Добавляем парсер https://it.novyny.live ExecItNovyny
+
+## План работы, день #7
+
+1. Пишем ParseTestController для проверки новых парсеров
+2. Знакомимся с @Controller и Thymleaf
+3. Пишем контроллер + сервис + html для проверки парсеров
