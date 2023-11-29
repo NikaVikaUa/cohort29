@@ -19,6 +19,6 @@
     "code/QA29_Phonebook/src/test/resources/regression.xml",
     "code/QA29_Phonebook/src/test/resources/testng.xml",
     "code/QA29_Phonebook/src/test/resources/logback.xml",
-    "code/QA29_Phonebook/src/test/resources/contacts.csv"
+    "code/QA29_Phonebook/src/test/resources/contact.csv"
   ]
 }
