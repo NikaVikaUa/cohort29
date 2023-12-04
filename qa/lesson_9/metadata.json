@@ -4,7 +4,7 @@
   "homework": "homework.md",
   "code": [
     "code/QA29_Phonebook/.gitignore",
-    "code/QA29_PhoneBook/build.gradle",
+    "code/QA29_Phonebook/build.gradle",
     "code/QA29_Phonebook/src/main/java/com/ait/phonebook/utils/DataProviders.java",
     "code/QA29_Phonebook/src/main/java/com/ait/phonebook/utils/UserData.java",
     "code/QA29_Phonebook/src/main/java/com/ait/phonebook/utils/ContactData.java",
@@ -20,8 +20,8 @@
     "code/QA29_Phonebook/src/test/java/com/ait/phonebook/tests/LoginTests.java",
     "code/QA29_Phonebook/src/test/java/com/ait/phonebook/tests/AddContactTests.java",
     "code/QA29_Phonebook/src/test/java/com/ait/phonebook/tests/RemoveContactTests.java",
-    "code/QA29_PhoneBook/src/test/resources/testng.xml",
-    "code/QA29_PhoneBook/src/test/resources/regression.xml",
-    "code/QA29_PhoneBook/src/test/resources/logback.xml"
+    "code/QA29_Phonebook/src/test/resources/testng.xml",
+    "code/QA29_Phonebook/src/test/resources/regression.xml",
+    "code/QA29_Phonebook/src/test/resources/logback.xml"
   ]
 }
