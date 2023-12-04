@@ -1,6 +1,7 @@
 package com.ait.phonebook.tests;
 
 import com.ait.phonebook.models.User;
+import com.ait.phonebook.utils.UserData;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -20,8 +21,8 @@ public class LoginTests extends TestBase{
         app.getUser().clickOnLoginLink();
 
         app.getUser().fillLoginRegisterForm(new User()
-                .setEmail("manuel@gm.com")
-                .setPassword("Manuel1234$"));
+                .setEmail(UserData.EMAIL)
+                .setPassword(UserData.PASSWORD));
 
         app.getUser().clickOnLoginButton();
         Assert.assertTrue(app.getUser().isSignOutButtonPresent());
@@ -32,7 +33,7 @@ public class LoginTests extends TestBase{
         app.getUser().clickOnLoginLink();
 
         app.getUser().fillLoginRegisterForm(new User()
-                .setPassword("Manuel1234$"));
+                .setPassword(UserData.PASSWORD));
 
         app.getUser().clickOnLoginButton();
         Assert.assertTrue(app.getUser().isAlertPresent());
