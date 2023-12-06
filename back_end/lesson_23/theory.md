@@ -1,4 +1,4 @@
-Запуск Spring Boot в VPS Google Cloud
+Запуск Spring Boot в Amazon Linux VPS
 =====================================
 
 ## Введение
@@ -13,7 +13,27 @@ VPS (англ. virtual private server) или VDS (англ. virtual dedicated s
 
 Результат: регистрация учётной записи в Google Cloud (или Oracle, или Amazon)
 
-## Создание VM
+## Создание VM Amazon
+
+Создаём новый виртуальный сервер в [Amazon Cloud](https://aws.amazon.com):
+Services -> Compute -> EC2 -> Launch instance
+
+Параметры:
+- Name: (пишем что хотим)
+- Application and OS Images: Amazon Linux (по умолчанию)
+- Instance type: (по умолчанию)
+- Key pair (login): Create new key pair
+  - Key pair name: amazon-linux-vps-key (рекомендуется)
+  - Key pair type: RSA
+  - Private key file format: .pem
+  Созданный и загруженный файл ключа поместить в папку ~/.ssh
+- Network settings: Create security group
+  x Allow SSH traffic from (Anywhere)
+  x Allow HTTPS traffic from the internet
+  x Allow HTTPS traffic from the internet
+- Configure storage: (8Gb по умолчанию, не больше 30)
+
+## Создание VM Google
 
 Создаём новый виртуальный сервер в [Google Cloud](https://cloud.google.com):
 Navigation menu -> Compute Engine -> VM instances  -> CREATE INSTANCE
@@ -28,13 +48,24 @@ Navigation menu -> Compute Engine -> VM instances  -> CREATE INSTANCE
   x Allow HTTP traffic
   x Allow HTTPS traffic
 
-## Развертывание HelloCRUD
+## Запуск HelloCRUD
 
-Устанавливаем JDK11 командой:
+Установка файлового менеджера mc
+
+```
+sudo yum install mc
+```
+
+Установка JDK-11 (Google Cloud):
 
 ```
 sudo yum install java-11-openjdk-devel
+```
 
+Устанавливаем JDK-11 (Amazon Cloud):
+
+```
+sudo yum install java-11-amazon-corretto-devel.x86_64
 ```
 
 Копируем приложение, собранное в виде jar: hello-crud-0.0.1-SNAPSHOT.jar и запускаем его командой:
@@ -43,13 +74,50 @@ sudo yum install java-11-openjdk-devel
 java -jar hello-crud-0.0.1-SNAPSHOT
 ```
 
-Открываем tcp порт 8080 добавляя правило в Set up firewall rules и после этого обращаемся к нашему запущенному приложению:
+Открываем tcp порт 8080 добавляя правило в Set up firewall rules (Google Cloud). В Amazon Cloud добавляем правило в соответствующую Security Group (Services -> Security Groups -> Выбрать группу -> Actions -> Edit inbound rules) Затем обращаемся к нашему запущенному приложению:
 
 ```
-http://<ip адрес нашей VM>:8080
+http://<ip адрес нашей VM>:8080/api/event/all
 ```
 
-## Установка postgresql-server
+## Запуск HelloCRUD как службы
+
+Запускаем mc c правами администратора:
+
+```
+sudo mc
+```
+
+Копируем файл hello-crud-0.0.1-SNAPSHOT.jar в папку /opt/hello-crud/ и создаём Symbolic link на этот файл с именем hello-crud.jar
+
+Создаём текстовый файл hello-crud.service (см ниже) и помещаем его в папку /etc/systemd/system/
+
+```
+[Unit]
+Description=Hello-REST
+After=syslog.target
+
+[Service]
+User=ec2-user
+ExecStart=/opt/hello-rest/hello-rest.jar
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target
+```
+
+Запускаем наше приложение как службу командой (ниже) и проверяем статус.
+
+```
+sudo systemctl start hello-crud.service
+```
+
+- start: запуск службы
+- stop: остановка службы
+- restart: перезапуск службы
+- status: просмотр статуса службы
+
+## Установка postgresql-server (Google Cloud)
 
 Для установки и настройки postgresql-server используем статью [How to Install PostgreSQL on CentOS 7](https://www.hostinger.com/tutorials/how-to-install-postgresql-on-centos-7/), вторую часть (How to Install PostgreSQL on CentOS 7 Using the CentOS Repositories)
 
@@ -144,4 +212,4 @@ sudo systemctl start hello-liquibase.service
 ssh-keygen -t rsa -f C:\Users\<windows-user>\.ssh\<ssh-key-name> -C <google-user> -b 2048
 ```
 
-Затем заходим в консоль, находим нашу VM, переходим в режим редактирования и добавляем публичный ключ из сгенерированной нами пары. Теперь мы можем использовать сторонний ssh-клиент (PuTTY, MobaXterm и другие) для ssh доступа к нашему серверу
+Затем заходим в консоль, находим нашу VM, переходим в режим редактирования и добавляем публичный ключ из сгенерированной нами пары. Теперь мы можем использовать сторонний ssh-клиент (PuTTY, Tabby, MobaXterm и другие) для ssh доступа к нашему серверу
