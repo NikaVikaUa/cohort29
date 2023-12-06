@@ -28,9 +28,9 @@ Services -> Compute -> EC2 -> Launch instance
   - Private key file format: .pem
   Созданный и загруженный файл ключа поместить в папку ~/.ssh
 - Network settings: Create security group
-  x Allow SSH traffic from (Anywhere)
-  x Allow HTTPS traffic from the internet
-  x Allow HTTPS traffic from the internet
+  - x Allow SSH traffic from (Anywhere)
+  - x Allow HTTPS traffic from the internet
+  - x Allow HTTPS traffic from the internet
 - Configure storage: (8Gb по умолчанию, не больше 30)
 
 ## Создание VM Google
@@ -45,8 +45,8 @@ Navigation menu -> Compute Engine -> VM instances  -> CREATE INSTANCE
   - operating system: CentOS
   - version: CentOS 7
 - Firewall:
-  x Allow HTTP traffic
-  x Allow HTTPS traffic
+  - x Allow HTTP traffic
+  - x Allow HTTPS traffic
 
 ## Запуск HelloCRUD
 
