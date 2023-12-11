@@ -17,4 +17,19 @@ public class HomePage extends BasePage{
         clickWithJSExecutor(alertsFrameWindows,0,300);
         return new SidePanel(driver);
     }
+
+    @FindBy(css = ".card:nth-child(4)")
+    WebElement widgets;
+
+    public SidePanel getWidgets() {
+        clickWithJSExecutor(widgets,0,300);
+        return new SidePanel(driver);
+    }
+
+    @FindBy(css = ".card:nth-child(5)")
+    WebElement interactions;
+    public SidePanel getInteractions() {
+        clickWithJSExecutor(interactions,0,300);
+        return new SidePanel(driver);
+    }
 }
