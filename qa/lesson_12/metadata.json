@@ -10,6 +10,10 @@
     "code/QA29_DemoQA_POM/src/test/java/com/demoqa/tests/DragAndDropTests.java",
     "code/QA29_DemoQA_POM/src/main/java/com/demoqa/pages/DragAndDropPage.java",
     "code/QA29_DemoQA_POM/src/test/java/com/demoqa/tests/PracticeFormTest.java",
-    "code/QA29_DemoQA_POM/src/main/java/com/demoqa/pages/PracticeFormPage.java"
+    "code/QA29_DemoQA_POM/src/main/java/com/demoqa/pages/PracticeFormPage.java",
+    "code/QA29_DemoQA_POM/src/test/java/com/demoqa/tests/IframeTest.java",
+    "code/QA29_DemoQA_POM/src/main/java/com/demoqa/pages/FramesPage.java",
+    "code/QA29_DemoQA_POM/src/test/java/com/demoqa/tests/ButtonsTest.java",
+    "code/QA29_DemoQA_POM/src/main/java/com/demoqa/pages/ButtonsPage.java"
   ]
 }
