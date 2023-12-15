@@ -1,7 +1,7 @@
 ## Spring Security JWT aутентификация и авторизация
 
-Пишем код на основании статьи:
-https://medium.com/code-with-farhan/spring-security-jwt-authentication-authorization-a2c6860be3cf
+Исправляем код (переходим на Spring Boot 3.2) на основании статьи:
+https://www.geeksforgeeks.org/spring-boot-3-0-jwt-authentication-with-spring-security-using-mysql-database/
 
 ## Установка JWT с помощью Spring Boot и Swagger UI
 
