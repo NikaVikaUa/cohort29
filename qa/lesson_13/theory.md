@@ -10,4 +10,4 @@
 
 Команда для запуска
 
-**mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/<filename>.xml**
+**mvn clean test -Dsurefire.suiteXmlFiles=src/test/resources/`filename`.xml**
