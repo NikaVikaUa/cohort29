@@ -1,0 +1,15 @@
+{
+  "plan": "plan.md",
+  "theory": "theory.md",
+  "code": [
+    "code/QA29_ilCarro/build.gradle",
+    "code/QA29_ilCarro/src/test/java/com/ilcarro/TestRunner.java",
+    "code/QA29_ilCarro/src/main/java/com/ilcarro/pages/BasePage.java",
+    "code/QA29_ilCarro/src/test/resources/features/navigate.feature",
+    "code/QA29_ilCarro/src/test/java/com/ilcarro/stepDefinitions/HomePageSteps.java",
+    "code/QA29_ilCarro/src/main/java/com/ilcarro/pages/HomePage.java",
+    "code/QA29_ilCarro/src/test/resources/features/login.feature",
+    "code/QA29_ilCarro/src/test/java/com/ilcarro/stepDefinitions/LoginSteps.java",
+    "code/QA29_ilCarro/src/main/java/com/ilcarro/pages/LoginPage.java"
+  ]
+}
